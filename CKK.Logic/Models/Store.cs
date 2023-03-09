@@ -69,11 +69,11 @@
             {
                 return Product1;
             }
-            else if (productNumber == 2)
+            if (productNumber == 2)
             {
                 return Product2;
             }
-            else if (productNumber == 3)
+            if (productNumber == 3)
             {
                 return Product3;
             }
@@ -89,11 +89,11 @@
             {
                 return Product1;
             }
-            else if(id == Product2.GetId())
+            if(id == Product2.GetId())
             {
                 return Product2;
             }
-            else if(id == Product3.GetId())
+            if(id == Product3.GetId())
             {
                 return Product3;
             }
