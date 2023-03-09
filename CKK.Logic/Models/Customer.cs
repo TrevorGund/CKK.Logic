@@ -26,9 +26,14 @@
             _name = name;
         }
 
-        public void Address(string address)
+        public void Setddress(string address)
         {
             _address = address;
+        }
+
+        public void GetAddress()
+        {
+            return _address;
         }
     }
 }
