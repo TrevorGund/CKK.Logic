@@ -30,5 +30,10 @@
         {
             _product = product;
         }
+
+        public decimal GetTotal()
+        {
+            return _product._price * _quantity;
+        }
     }
 }
