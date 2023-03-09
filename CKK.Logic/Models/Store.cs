@@ -85,15 +85,15 @@
              
         public Product FindStoreItemById(int id)
         {
-            if(id == Product1._id)
+            if(id == Product1.GetId())
             {
                 return Product1;
             }
-            else if(id == Product2._id)
+            else if(id == Product2.GetId())
             {
                 return Product2;
             }
-            else if(id == Product3._id)
+            else if(id == Product3.GetId())
             {
                 return Product3;
             }

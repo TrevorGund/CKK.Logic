@@ -33,7 +33,7 @@
 
         public decimal GetTotal()
         {
-            return _product._price * _quantity;
+            return _product.GetPrice() * _quantity;
         }
     }
 }
