@@ -1,6 +1,6 @@
 ﻿namespace CKK.Logic.Models
 {
-    class StoreItem
+    public class StoreItem
     {
         private Product _product;
         private int _quantity;
