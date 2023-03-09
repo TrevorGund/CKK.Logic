@@ -43,7 +43,7 @@
             {
                 _product3 = prod;
             }
-            else if (_product3 != null)
+            else if (_product3 == null)
             {
                 _product3 = prod;
             }
