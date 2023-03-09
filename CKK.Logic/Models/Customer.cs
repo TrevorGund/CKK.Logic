@@ -31,7 +31,7 @@
             _address = address;
         }
 
-        public void GetAddress()
+        public string GetAddress()
         {
             return _address;
         }
