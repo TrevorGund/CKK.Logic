@@ -4,9 +4,9 @@
     {
         private int _id;
         private string _name;
-        private Product Product1;
-        private Product Product2;
-        private Product Product3;
+        private Product _product1;
+        private Product _product2;
+        private Product _product3;
 
         public int GetId()
         {
@@ -31,51 +31,51 @@
 
         public void AddStoreItem(Product prod)
         {
-            if (Product1 == null)
+            if (_product1 == null)
             {
-                Product1 = prod;
+                _product1 = prod;
             }
-            else if (Product2 == null)
+            else if (_product2 == null)
             {
-                Product2 = prod;
+                _product2 = prod;
             }
-            else if (Product3 == null)
+            else if (_product3 == null)
             {
-                Product3 = prod;
+                _product3 = prod;
             }
-            else if (Product3 != null)
+            else if (_product3 != null)
             {
-                Product3 = prod;
+                _product3 = prod;
             }
         }
         public void RemoveStoreItem(int productNumber)
         {
             if (productNumber == 1)
             {
-                Product1 = null;
+                _product1 = null;
             }
             else if (productNumber == 2)
             {
-                Product2 = null;
+                _product2 = null;
             }
             else if (productNumber == 3)
             {
-                Product3 = null;
+                _product3 = null;
             }
         }
         public Product GetStoreItem(int productNumber)
         {
             if (productNumber == 1)
             {
-                return Product1;
+                return _product1;
             }
             if (productNumber == 2)
             {
-                return Product2;
+                return _product2;
             }
             if (productNumber == 3)
             {
-                return Product3;
+                return _product3;
             }
             else
             {
@@ -85,17 +85,17 @@
              
         public Product FindStoreItemById(int id)
         {
-            if(id == Product1.GetId())
+            if(id == _product1.GetId())
             {
-                return Product1;
+                return _product1;
             }
-            if(id == Product2.GetId())
+            if(id == _product2.GetId())
             {
-                return Product2;
+                return _product2;
             }
-            if(id == Product3.GetId())
+            if(id == _product3.GetId())
             {
-                return Product3;
+                return _product3;
             }
             else
             {
