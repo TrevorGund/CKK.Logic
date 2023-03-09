@@ -47,6 +47,10 @@
             {
                 _product3 = prod;
             }
+            else
+            {
+                Console.WriteLine("Store Inventory Full!")
+            }
         }
         public void RemoveStoreItem(int productNumber)
         {
