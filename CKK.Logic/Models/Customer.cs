@@ -26,7 +26,7 @@
             _name = name;
         }
 
-        public void Setddress(string address)
+        public void SetAddress(string address)
         {
             _address = address;
         }
